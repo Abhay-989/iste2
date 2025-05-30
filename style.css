@@ -1,0 +1,263 @@
+.main {
+  height: 120vh;
+  width: 88vw;
+  background: linear-gradient(
+    to right,
+    rgb(233, 231, 222),
+    rgb(205, 203, 202),
+    rgb(251, 250, 194)
+  );
+  border-radius: 40px;
+  margin: 60px 73px 50px 73px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: rgb(225, 228, 235); 
+  margin: 0;
+  padding: 0;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  background: transparent;
+}
+
+.cerxtio {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  padding: 0 250px 0 0;
+}
+.cerxtio img{
+  height: 50px;
+}
+
+.nav-items1,
+.bell ,
+.account ,
+.nav-items2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding :  5px 13px ;
+}
+.bell{
+  position: relative;
+  left: 1%;
+}
+.nav-items2 {
+  position: relative;
+  left: 20px;
+}
+.nav-items1 {
+  position: relative;
+  left: 30px;
+}
+
+.nav-items1 a,
+.nav-items2 a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-items1 a:hover,
+.nav-items2 a:hover {
+  color: #007BFF;
+}
+
+.bell img,
+.account img,
+.nav-items2 img {
+  width: 20px;
+  height: 20px;
+  /* margin-left: 10px; */
+  cursor: pointer;
+}
+
+
+.duration{
+  margin: 50px 0;
+  display: flex;
+  border-radius: 20px;
+  background-color: white;
+   width: 165px;
+   align-items: center;
+   justify-self: center;
+   font-size: 0.9rem;
+   font-weight: 500;
+}
+.duration div{
+    border-radius: 20px;
+  background-color: rgb(31, 31, 31);
+  color: #fff;
+  width: 55px;
+  font-size: 0.9rem;
+  margin: 0 9px 0 0;
+  padding: 8px 10px 8px 15px ;
+}
+.pricing{
+  position: absolute;
+  top: 155px;
+  font-size: 2.6rem;
+}
+.mainbox {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.seventeen{
+  display: flex;
+justify-content: center;
+}
+.seventeen h2{
+  font-size:50px;
+  margin: 0;
+}
+.one {
+  width: 425px;
+  padding: 10px 10px 20px 10px;
+   
+  margin: 0 0 0 1px;
+}
+.extra{
+ border-radius: 20px;
+     border-top-left-radius: 0;
+    border: 1px solid rgb(65, 61, 61);
+  border-top:none ;
+  padding: 0 0 10px 0;
+}
+.start{
+  display: flex ;
+  height: 20px;
+  
+}
+.blank{
+  width: 80%;
+   border-radius: 20px;
+    border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid black;
+  border-bottom: none;
+  border-right: none;
+  margin: 28px -2px -40px 0px;
+
+}
+.active{
+  width: 20%;
+  height: 50px;
+  margin: 11px 13px 11px 0;
+  padding-left: 15px;
+  border-bottom-left-radius: 20px;
+  border-bottom: 1px solid black;
+ 
+}
+.recruit{
+width: 200px;
+font-size:30px;
+margin-left: 110px;
+
+}
+p i{
+  background-color: rgb(107, 196, 107);
+  border-radius: 50%;
+  border: none;
+  
+}
+
+ .x p {
+  color: #9e9999;
+  font-style: italic;
+}
+.x p::before {
+  content: "X";
+  font-weight: bold;
+}
+.one:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+.divider {
+  border: none;
+  border-top: 1px solid rgb(240, 224, 197);
+  margin: 20px 0;
+}
+
+.tick{
+  color: #4b4848;
+}
+p{
+  margin: 10px;
+}
+.pro{
+  display: flex;
+}
+.overline{
+  text-decoration: line-through;
+}
+
+.one2 {
+  width: 425px;
+
+}
+.one2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+.extra2{
+ background-color: #484545;
+  border: 4px solid rgb(231, 194, 109);
+  border-radius: 20px;
+    border-top-left-radius: 0;
+     padding: 0 0 15px 0;
+   border-top:none ;
+}
+.blank2{
+  width: 80%;
+  background-color: #484545;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+
+  border: 4px solid rgb(231, 194, 109);
+  border-bottom: none;
+  border-right: none;
+
+  margin: 28px -2px -40px 0px;
+
+}
+.active2{
+  display: flex;
+      width: 24%;
+    height: 36px;
+  background-color: rgb(231, 194, 109);;
+    margin: 28px 4px 0px -10px;
+  padding-left: 15px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius:20px ;
+align-items: flex-end;
+
+ 
+}
+.tick2{
+  color: #d6cece;
+}
+.lastline{
+  display: flex;
+  justify-self: center;
+  border: none;
+  border-radius: 100px;
+  margin: 20px 0 0 0;
+  padding: 10px 15px;
+  
+}
